@@ -1,0 +1,12 @@
+1 : SELECT apellido, nombre, fecha_nacimiento FROM profesor ORDER BY fecha_nacimiento ASC
+
+2 : SELECT * FROM profesor WHERE salario >= 80000
+
+3 : SELECT * FROM profesor WHERE fecha_nacimiento BETWEEN 01/01/1980 and 31/12/1990
+
+4 : SELECT * FROM profesor LIMIT 5
+
+5 : SELECT * FROM profesor WHERE apellido LIKE 'P%'
+
+6 : SELECT * FROM profesor WHERE salario > 80000 AND fecha_nacimiento BETWEEN 01/01/1980 and 31/12/1990 
+
